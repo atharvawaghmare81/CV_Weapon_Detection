@@ -5,7 +5,7 @@ import numpy as np
 from ultralytics import YOLO  # Adjust this to your model's library
 
 # Load your model (replace 'best.pt' with your trained model file)
-MODEL_PATH = "runs/detect/train4/weights/best.pt"  # relative path
+MODEL_PATH = "best.pt"  # relative path
 model = YOLO(MODEL_PATH)
 
 # App title and description
